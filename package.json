@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@photo-sphere-viewer/virtual-tour-plugin": "^5.1.1"
+  }
+}
