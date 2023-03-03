@@ -31,7 +31,7 @@ var viewer = new PhotoSphereViewer.Viewer({
             imageLayer: "./icon/marker.png",
             size: { width: s, height: s },
             tooltip: "cp",
-            content: document.getElementById("a1").innerHTML,
+            content: document.getElementById("c1-1").innerHTML,
           },
           {
             id: "m1-2",
@@ -39,7 +39,7 @@ var viewer = new PhotoSphereViewer.Viewer({
             imageLayer: "./icon/marker.png",
             size: { width: s, height: s },
             tooltip: "ที่จอดรถมอไซต์",
-            content: document.getElementById("a1").innerHTML,
+            content: document.getElementById("c1-2").innerHTML,
           },
           {
             id: "m1-3",
@@ -47,7 +47,7 @@ var viewer = new PhotoSphereViewer.Viewer({
             imageLayer: "./icon/marker.png",
             size: { width: s, height: s },
             tooltip: "ตึกอะไรสักอย่าง",
-            content: document.getElementById("a1").innerHTML,
+            content: document.getElementById("c1-3").innerHTML,
           },
           {
             id: "m1-4",
@@ -55,7 +55,7 @@ var viewer = new PhotoSphereViewer.Viewer({
             imageLayer: "./icon/marker.png",
             size: { width: s, height: s },
             tooltip: "ตึกอะไรสักอย่าง2",
-            content: document.getElementById("a1").innerHTML,
+            content: document.getElementById("c1-4").innerHTML,
           },
           {
             id: "m1-5",
@@ -63,7 +63,7 @@ var viewer = new PhotoSphereViewer.Viewer({
             imageLayer: "./icon/marker.png",
             size: { width: s, height: s },
             tooltip: "ทางไปโรงอาหารมนุษ",
-            content: document.getElementById("a1").innerHTML,
+            content: document.getElementById("c1-5").innerHTML,
           },
         ],
       },
@@ -95,7 +95,7 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
       tooltip: "cp",
-      content: document.getElementById("a1").innerHTML,
+      content: document.getElementById("c1-1").innerHTML,
     });
 
     markersPlugin.addMarker({
@@ -104,7 +104,7 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
       tooltip: "ที่จอดรถมอไซต์",
-      content: document.getElementById("a1").innerHTML,
+      content: document.getElementById("c1-1").innerHTML,
     });
 
     markersPlugin.addMarker({
@@ -113,7 +113,7 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
       tooltip: "ตึกอะไรสักอย่าง",
-      content: document.getElementById("a1").innerHTML,
+      content: document.getElementById("c1-1").innerHTML,
     });
 
     markersPlugin.addMarker({
@@ -122,7 +122,7 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
       tooltip: "ตึกอะไรสักอย่าง2",
-      content: document.getElementById("a1").innerHTML,
+      content: document.getElementById("c1-1").innerHTML,
     });
 
     markersPlugin.addMarker({
@@ -131,7 +131,7 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
       tooltip: "ทางไปโรงอาหารมนุษ",
-      content: document.getElementById("a1").innerHTML,
+      content: document.getElementById("c1-1").innerHTML,
     });
 
   }
@@ -160,24 +160,24 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       position: { yaw: "-70deg", pitch: "30deg" },
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
-      tooltip: "ศาลาพระหรืออะไรสักอย่าง",
-      content: document.getElementById("a1").innerHTML,
+      tooltip: "ศาลาพระ",
+      content: document.getElementById("c2-1").innerHTML,
     });
     markersPlugin.addMarker({
       id: "m2-2",
       position: { yaw: "-100deg", pitch: "20deg" },
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
-      tooltip: "ตึกอะไรสักอย่าง",
-      content: document.getElementById("a1").innerHTML,
+      tooltip: "ตึกอะไรสักอย่างของมนุษยศาสตร์",
+      content: document.getElementById("c2-2").innerHTML,
     });
     markersPlugin.addMarker({
       id: "m2-3",
       position: { yaw: "-40deg", pitch: "20deg" },
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
-      tooltip: "โรงอาหารมนุด",
-      content: document.getElementById("a1").innerHTML,
+      tooltip: "โรงอาหารมนุษยศาสตร์",
+      content: document.getElementById("c2-3").innerHTML,
     });
     markersPlugin.addMarker({
       id: "m2-4",
@@ -185,20 +185,20 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
       tooltip: "ศาลาก้านของ",
-      content: document.getElementById("a1").innerHTML,
+      content: document.getElementById("c2-4").innerHTML,
     });
     markersPlugin.addMarker({
       id: "m2-5",
       position: { yaw: "120deg", pitch: "5deg" },
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
-      tooltip: "สนามหญ่ามนุด",
-      content: document.getElementById("a1").innerHTML,
+      tooltip: "สนามหญ้ามนุษยศาสตร์",
+      content: document.getElementById("c2-5").innerHTML,
     });
   }
 
   if (marker.id == "goto3") {
-    viewer.setPanorama("./img/img2.jpg");
+    viewer.setPanorama("./img/img3.jpg");
     markersPlugin.clearMarkers();
 
     markersPlugin.addMarker({
@@ -221,7 +221,7 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
       tooltip: "ตึก MBA อะไรสักอย่าง",
-      content: document.getElementById("a1").innerHTML,
+      content: document.getElementById("c3-1").innerHTML,
     });
     markersPlugin.addMarker({
       id: "m3-2",
@@ -229,7 +229,7 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
       tooltip: "HUSO",
-      content: document.getElementById("a1").innerHTML,
+      content: document.getElementById("c3-2").innerHTML,
     });
     markersPlugin.addMarker({
       id: "m3-3",
@@ -237,7 +237,7 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
       tooltip: "ตึกอะไรก็ไม่รู้ kkbs",
-      content: document.getElementById("a1").innerHTML,
+      content: document.getElementById("c3-3").innerHTML,
     });
     markersPlugin.addMarker({
       id: "m3-4",
@@ -245,7 +245,7 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
       tooltip: "ลานจอดมอไซต์ kkbs",
-      content: document.getElementById("a1").innerHTML,
+      content: document.getElementById("c3-4").innerHTML,
     });
     markersPlugin.addMarker({
       id: "m3-5",
@@ -253,7 +253,7 @@ markersPlugin.addEventListener("select-marker", ({ marker }) => {
       imageLayer: "./icon/marker.png",
       size: { width: s, height: s },
       tooltip: "cp",
-      content: document.getElementById("a1").innerHTML,
+      content: document.getElementById("c3-5").innerHTML,
     });
 
   }
